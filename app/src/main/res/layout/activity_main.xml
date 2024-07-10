@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/simpleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple notification"/>
+    <Button
+        android:id="@+id/inboxNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inbox style notification"/>
+    <Button
+        android:id="@+id/actionTextStyleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Action text style notification"/>
+    <Button
+        android:id="@+id/bigPictureNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Big Picture notification"/>
+    <Button
+        android:id="@+id/snakBarNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Snack Bar notification"/>
+
+</LinearLayout>
